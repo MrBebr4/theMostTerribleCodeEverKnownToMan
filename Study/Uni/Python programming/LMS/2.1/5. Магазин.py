@@ -1,0 +1,5 @@
+amount = input()
+price = input()
+money = input()
+change = float(money) - float(amount) * float(price)
+print(change)
